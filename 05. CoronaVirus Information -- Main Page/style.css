@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("./Images/bg.jpg")no-repeat center center/cover;
+}
+nav{
+    display: flex;
+    background-color:#322ba2;
+    padding: 0px 23px;
+}
+.items{
+    list-style: none;
+    padding: 3px 8px;
+}
+.items a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 18px 10px;
+    display: block;
+}
+.items a:hover{
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+}
+.container{
+    background: white;
+    margin: 12px auto;
+    max-width: 69%;
+    /* height: 600vh; */
+    padding: 46px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.container p{
+    font-size: 18px;
+}
+.h1-primary{
+    padding: 23px 0px;
+}
+.center{
+    text-align: center;
+}
+li{
+    padding: 10px;
+    font-size: 18px;
+}
+.questions{
+    margin: 12px 0px;
+}
+.questions p{
+    padding: 10px;
+}
